@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(97, 94, 97);
+    background-color: #e5e5e5;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    background-color: #f7e9e9;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+nav ul a{
+    margin: 30px;
+    color: rgb(97, 94, 97);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
