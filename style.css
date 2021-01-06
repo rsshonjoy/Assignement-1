@@ -60,7 +60,6 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    margin-top: 40px;
 }
 .half-width img{
     height: 500px;
@@ -110,6 +109,7 @@ section{
 }
 .bg-pro{
     background-color: #E5E5E5;
+    padding-bottom: 10%;
 }
 .pro-text{
     padding: 5%;
@@ -119,4 +119,49 @@ section{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+}
+.work-inquiry{
+    margin: 50px 25% 0px 25%;
+    text-align: left;
+    padding-top: 20px;
+    background:url(images/image9.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.work h1{
+    margin: 50px;
+}
+.work span a{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 20px;
+    display: flex;
+    margin: 60px;
+    color: white;
+    border-radius: 10px;
+}
+.contact{
+    text-align: center;
+    margin-top: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+.social{
+    float: left;
+    margin-left: 30%;
+    padding-left: 5%;
+    margin-top: 40px;
+    align-content: center;
+    
+}
+.social a img{
+    size: 88x;
+    height: 50px;
+    padding-left: 30px;
+}
+.con-so{
+    line-height: 5px;
 }
