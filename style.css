@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     color: rgb(97, 94, 97);
-    background-color: #e5e5e5;
+
 }
 ul{
     list-style: none;
@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     height: 60px;
-    background-color: #f7e9e9;
+    background-color: #fffbfb;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding: 0px 5%;
 }
@@ -37,7 +37,8 @@ h2{
 }
 .orange-highlight{
     color:#FF8367;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -68,6 +69,10 @@ section{
     height: 500px;
     padding-top: 100px;
 }
+.experience{
+    font-size: 50px;
+    padding-left: 2%;
+}
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
@@ -82,4 +87,36 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+}
+.main-head{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.projects{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.projects img{
+    height: 20%;
+    width: 90%;
+    padding: 5%;
+    
+}
+.bg-pro{
+    background-color: #E5E5E5;
+}
+.pro-text{
+    padding: 5%;
+    padding-top: 0px;
+}
+.pro-head{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
